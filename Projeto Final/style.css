@@ -1,0 +1,109 @@
+body{
+   background-image: url(imagens/mtg.png);
+    height: 100%;
+    background-attachment: fixed;
+    justify-content: space-around;
+    text-align: center;
+}
+/* muda o fundo, centraliza e fixa*/
+p{
+  color: white;
+  text-align: center;
+  justify-content: space-around;
+  font-weight: bolder;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 7.5px;
+}
+/* muda o fundo, cor, tamanho, raio e centraliza*/
+h1{
+  color: white;
+  font-size: larger;
+  font-weight: 1000;
+  text-align: center;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 7.5px;
+  
+}
+/* muda o fundo, cor, tamanho, raio e centraliza*/
+h2{
+  color: white;
+  font-size: larger;
+  font-weight: 1000;
+  text-align: center;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 7.5px;
+}
+/* muda o fundo, cor, tamanho, raio e centraliza*/
+.nomes_zeus{
+  color: white;
+  font-size: larger;
+  font-weight: 1000;
+  text-align: center;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 7.5px;
+}
+/* muda o fundo, cor, tamanho, raio e centraliza*/
+
+.Luiz{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: space-around;
+  font-weight: bolder;
+  background: linear-gradient(45deg, rgba(129, 129, 129, 0.808), rgba(0, 0, 0, 0.678));
+  border-radius: 7.5px;
+}
+/* aplica um gradiente no fundo dos textos*/
+
+.hera{
+  cursor: not-allowed;
+
+}
+/* altera a a forma do mouse */
+
+.Zeus{
+  border-radius: 50px;
+
+}
+/* deixa as bordas redondas*/
+
+.Zeus:hover{
+  transition: 200ms linear;
+  transform: scale(1.05);
+}
+/* aplica uma transição nas imagens*/
+
+figcaption {
+  color: #fff;
+  font: italic smaller sans-serif;
+  font-size: xx-small;
+  padding: 0.1px;
+  text-align: center;
+}
+/* muda fonte, centraliza, muda o tamanho, e a cor da fonte dos links*/
+
+.Hades{
+  
+  text-shadow: 2px 2px rgb(214, 14, 14);
+  
+}
+/* aplica uma sombra nos textos*/
+
+
+
+.poseidon{
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'century gothic';
+    color: #ffffcc;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px blue, 
+                 0 0 30px blue,
+                 0 0 40px blue, 
+                 0 0 55px blue, 
+                 0 0 70px blue;
+}
+/* adiciona brilho ao texto e muda a fonte*/
